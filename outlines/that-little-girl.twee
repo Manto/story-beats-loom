@@ -1,0 +1,161 @@
+:: StoryTitle
+Abandoned Ship
+
+:: StoryData
+{
+  "ifid": "6a6bfd71-4fd0-401d-946e-30ab8bd45d1e",
+  "format": "Chapbook",
+  "format-version": "1.2.3",
+  "start": "start",
+  "zoom": 1
+}
+
+:: start
+Derek’s boots crunched over the asteroid’s jagged surface, the dull thud echoing in the silence of the belt. A faint glimmer caught his eye. He squinted against the dim light of distant stars. There it was—a hulking mass of metal, half-buried in the rock. An ancient ship, rusted and forgotten, like a ghost of humanity’s past.
+
+He approached, the air thick with the smell of ozone and decay. The ship loomed larger, its hull pockmarked with craters, as if it had fought a losing battle against the cosmos. Old insignias clung to the metal like peeling paint, whispers of a bygone era. Derek ran a gloved hand over the surface, feeling the grooves and dents—stories etched in iron.
+
+The hatch was sealed tight, a stubborn sentinel guarding its secrets. He fished out a plasma cutter from his tool belt, the hum of the tool slicing through the silence. Sparks flew as he worked, each flicker illuminating the shadows of the ship’s past. The door finally gave way with a reluctant hiss, revealing a dark maw.
+
+He stepped inside, the air stale and thick, as if the ship had been holding its breath for centuries. The dim light from his visor danced across the walls, revealing a cockpit littered with dust and debris. Control panels flickered with long-dead lights, like the eyes of a creature that had seen too much. 
+
+Derek's heart raced. This wasn’t just any ship; it was human tech, ancient but familiar. He could almost hear the echoes of voices, laughter, and arguments, lost in the void of space. He moved deeper into the belly of the beast, navigating through the narrow corridors, each step stirring the ghosts of the past.
+
+A flicker caught his eye—an old data terminal, its screen cracked but still intact. He wiped the dust away, revealing the faded letters. "U.S.S. Ardent." The name hung in the air like a bitter memory. He had heard of the Ardent, lost in the depths of the belt decades ago. Rumors whispered of treasure aboard, but Derek wasn’t here for gold; he was here for answers.
+
+He tapped the terminal, fingers dancing over the keys. The screen flickered to life, a cascade of data spilling forth. Logs, coordinates, crew manifests. The ship had been on a mining expedition, just like him. But something had gone wrong, and the final entry sent a chill down his spine.
+
+“Distress signal sent. Hostile presence detected. All crew accounted for. Initiating self-destruct.”
+
+Derek’s breath hitched. He wasn’t alone. The asteroid belt was a graveyard of ships and secrets, and whatever had taken the Ardent down might still be lurking in the shadows. He glanced around, the weight of the ship pressing in on him. Time to get out. 
+
+But as he turned, a sound echoed in the distance—a low, mechanical whirring. Derek’s instincts kicked in. He wasn’t just a miner anymore; he was a man on borrowed time, caught in the web of an ancient tragedy. He had to move, and fast. The past was waking up, and it wasn’t friendly.
+[[Get closer|start__closer]]
+
+:: start__closer
+Derek’s pulse quickened as he stepped cautiously through the cockpit. The walls whispered secrets, but he needed more than echoes. His visor flickered, illuminating the remnants of a life once lived aboard the U.S.S. Ardent. He needed to know what had gone wrong, and the ship’s history hung like a noose around his neck.
+
+As he moved deeper, he caught sight of faded lettering etched into the hull. “NASA Hermes Mission 2500.” The words were like a punch to the gut. He’d heard of the Hermes missions—bold explorations that pushed the boundaries of human reach. But this one? It had vanished without a trace, swallowed by the void. 
+
+Derek felt the weight of the ship’s legacy pressing down on him. He needed to find a way to unlock its mysteries. He scanned the corridor, searching for doors. Two stood before him, their surfaces cold and metallic, each adorned with a rusted lock. 
+
+He approached the first door, a sense of foreboding creeping in. The lock was ancient, but he could see the faint outline of a keypad beside it. He knelt, brushing away layers of dust and debris. The buttons were worn, but he could still make out the numbers. He hesitated, fingers hovering. What if it opened to a tomb?
+
+He turned to the second door, identical but for the faintest scratch marks along the edges. It felt wrong, like a warning. He backed away, heart thumping in his chest. The whispers of the past were louder now, urging him to choose. 
+
+“Come on, Derek,” he muttered under his breath. “You didn’t come all this way to play it safe.” 
+
+He returned to the first door, the keypad taunting him. He punched in the numbers he hoped would bring him closer to the truth: 2500. The screen blinked, a moment of silence stretching like the void outside. Then, a low beep echoed. The lock clicked, and the door hissed open, revealing darkness beyond.
+
+He peered inside, the shadows swallowing the light from his visor. A sense of dread washed over him, but curiosity clawed at his gut. He stepped through the threshold, the door sealing shut behind him with a finality that sent a chill down his spine.
+
+The room was small, cluttered with remnants of a life interrupted. Equipment lay strewn about, a mix of scientific instruments and personal effects. A half-burned photo of a smiling crew caught his eye, faces frozen in time. He reached out, fingers brushing the edges, but the moment was fleeting. 
+
+A sudden noise jolted him—metal scraping against metal. He spun around, instincts flaring. The second door had rattled, as if something was trying to get in. Panic surged through him. 
+
+“Get a grip,” he whispered, forcing himself to breathe. He had to keep moving. Whatever had taken the Ardent down was still near, and it wouldn’t take kindly to trespassers. 
+
+Derek scanned the room for anything useful, anything that could shed light on the Hermes mission. He spotted a console buried beneath debris. He cleared the mess, revealing a flickering screen. Its glow pulsed with an eerie rhythm, a heartbeat in the silence.
+
+He leaned closer, fingers dancing over the keys. The screen blinked to life, revealing logs and data files, the ghosts of the past whispering their secrets. But the noise behind him grew louder, a persistent thrum that resonated with dread. 
+
+Time was running out. He had to find out what happened to the Hermes. He had to know if he was the next victim of the darkness that lurked here. With a final glance at the locked door, he plunged into the digital abyss, ready to confront whatever awaited him in the shadows.
+[[Enter door 1|start__closer__door1]]
+[[Enter door 2|start__closer__door2]]
+
+:: start__closer__door1
+The screen flickered, the data swirling in an indecipherable dance. Derek’s heart raced as he absorbed the fragments of the Hermes mission. But the noise behind him morphed into a cacophony, a low rumble that vibrated through the walls. 
+
+He froze, every instinct screaming at him to run. The ship was waking up, and it didn’t want visitors. Just as he turned to flee, the floor shuddered beneath him. The console erupted in sparks, a blinding flash illuminating the darkness. 
+
+“Damn it!” he cursed, diving to the side as the ship’s hull groaned like a wounded beast. The walls trembled, metal creaking ominously. He scrambled for the door, but it was too late. 
+
+An explosion ripped through the ship, a violent shudder that sent him crashing to the ground. The air ignited with a blinding light, and he was thrown against the bulkhead, pain lancing through his side. 
+
+“Get out! Get out!” he shouted, but the words were swallowed by the roar of flames and collapsing metal. The ship was collapsing, a tomb of rust and regret. He clawed his way to the door, but the heat was rising, the air thick with smoke and despair. 
+
+Just as he managed to push it open, a wave of fire surged toward him. He stumbled backward, heart pounding, the world around him dissolving in chaos. 
+
+And then—darkness.
+
+When he came to, the cold bite of space filled his lungs. He gasped, instinctively reaching for his helmet. The visor blinked to life, revealing the asteroid belt’s desolate beauty. Stars twinkled like distant promises, but they were a cruel reminder of his isolation. 
+
+“Derek!” A voice crackled over the comms, sharp and urgent. It pulled him from the haze. “Derek, can you hear me?” 
+
+He blinked, shaking off the remnants of the explosion. A ship hovered nearby, its hull gleaming against the backdrop of the void. Miners. They had come for him. 
+
+“Yeah, I’m here!” he shouted, voice hoarse. “I’m alive!” 
+
+“Hold on! We’re coming in!” The ship maneuvered closer, thrusters flaring as it steadied. Derek’s heart raced with relief, but the memory of the Ardent’s last moments clawed at him. He had to warn them.
+
+“Get away from the wreck!” he yelled, pointing toward the fading silhouette of the U.S.S. Ardent. “It’s going to blow!”
+
+The miners exchanged glances, eyes wide with confusion. But before they could respond, the ship’s hull erupted in a fiery bloom, a brilliant flash that consumed the darkness. The force of the blast knocked Derek off his feet, tumbling him through the vacuum of space. 
+
+“Derek!” The voice crackled again, panic lacing the urgency. 
+
+He regained control, thrusters firing as he steadied himself. The miners’ ship was closing in, and he could see their faces through the cockpit window—relief mingled with disbelief. They had seen the explosion. They had come for him. 
+
+“Get in!” one of them shouted, gesturing frantically. 
+
+Derek propelled himself toward the ship, adrenaline surging through his veins. He felt like a ghost, caught between the past and the present, but survival was all that mattered. He reached the airlock, the hatch hissing open as he tumbled inside, breathless and shaken.
+
+“Close it! Close it!” he gasped, scrambling to his feet. The door sealed shut with a heavy thud, a finality that sent a shiver down his spine. 
+
+The crew surrounded him, expressions a mix of concern and awe. “What the hell happened?” one of them asked, eyes wide. 
+
+Derek shook his head, still reeling from the chaos. “The ship... it was a trap. The Ardent wasn’t just abandoned—it was hiding something. Something dangerous.”
+
+The miners exchanged glances, the weight of his words sinking in. He could see the questions forming in their minds, the curiosity battling against the instinct to flee. But he had no answers, only the haunting echoes of the past. 
+
+The ship’s engines roared to life, pulling away from the wreckage. Derek watched as the Ardent faded into the darkness, a lost relic swallowed by the void. 
+
+“Let’s get out of here,” he murmured, the words heavy on his tongue. The past was gone, but its shadows lingered, and he knew he’d never escape the ghosts of the Ardent. 
+
+As they navigated through the asteroid belt, the stars twinkled like distant memories. But Derek felt a new resolve building within him. He had survived, and now, he had a story to tell. One that might just uncover the truth behind the Hermes mission and the darkness that lurked in the depths of space.
+
+:: start__closer__door2
+The screen flickered, a lifeline in the suffocating dark. Derek’s fingers danced over the keys, coaxing the ancient databank to reveal its secrets. Each click echoed like gunshots in the stillness, a reminder of the urgency clawing at his back. Logs scrolled past, some garbled, others intact, each one a breadcrumb leading him deeper into the mystery of the U.S.S. Ardent.
+
+“Come on, come on,” he muttered, sweat beading on his brow. The databank whirred, lights flashing like stars in a dying galaxy. He focused, eyes narrowing as he sifted through the data. Crew manifests, mission reports, and then—there it was. A final entry labeled “Incident Report.”
+
+His heart raced as he opened it. The words spilled forth, a chilling narrative of fear and confusion. “Encountered unknown entity. Attempts to communicate failed. Crew members compromised. Engaging evasive maneuvers.” The report ended abruptly, a digital scream cut short. The hairs on the back of his neck stood on end.
+
+Derek’s breath hitched. The entity that had taken down the Ardent was real. The whispers of the past were no longer just echoes; they were warnings. He had to get this information out—had to warn others.
+
+He glanced back at the door, the persistent rattling growing louder, more insistent. Whatever was on the other side wanted in. He had no time to waste. With a final keystroke, he initiated a data transfer, sending the logs to his personal comm unit. A flickering message confirmed the upload. 
+
+“Got it,” he whispered, relief mingling with dread. But he wasn’t safe yet.
+
+He turned to face the door, heart pounding like a drum. The rattling intensified, and a metallic clang reverberated through the small room. The thing outside was determined, and the walls felt like they were closing in. 
+
+“Time to go,” he said to himself, forcing his legs to move. He dashed toward the door, the shadows stretching and twisting in his wake. He reached for the handle, but it was locked tight, sealing him in. Panic surged, but he fought it down. He’d come too far to be trapped now.
+
+He pounded on the door, desperation clawing at his throat. “Let me out!” The echoes of his voice bounced back, mocking him. 
+
+Then, a miracle. The door hissed and slid open, revealing the dark corridor beyond. He bolted out, adrenaline fueling his escape. The ship felt alive, the walls pulsing with the weight of its history, and he could almost hear the whispers urging him to flee.
+
+He sprinted through the narrow passage, the sound of whirring machines growing fainter behind him. The cockpit beckoned, a beacon of hope. He burst through the threshold, his heart racing as he spotted the hatch leading back to the asteroid’s surface.
+
+But the moment was short-lived. A shadow flickered at the edge of his vision. He turned, eyes wide, but there was nothing there—just the remnants of the Ardent’s ghostly past. 
+
+“Get a grip, Derek,” he said, forcing himself to focus. He couldn’t let fear take hold. He had the data; he had the truth. He just needed to get back to the surface.
+
+With a final glance at the darkness, he climbed up the twisted metal ladder, the hatch looming above him like a portal to freedom. He pushed it open, the cold space air hitting him like a slap. He stepped out onto the asteroid’s surface, the vastness of the belt stretching before him. 
+
+His comm unit buzzed to life. The university had received his data. “Derek, is that you?” a voice crackled through the static. It was Dr. Lena Hargrove, the lead archaeologist. “You’ve found something incredible!”
+
+“Yeah, incredible is one way to put it,” Derek replied, breathless. “But we need to talk. The Ardent wasn’t just lost—it was taken down by something. I’ve got the logs.”
+
+“Get back here! We need to analyze this data!” 
+
+He could hear the excitement in her voice, but it was laced with urgency. “I’m on my way,” he said, glancing back at the ship, its silhouette a dark memory against the stars. “But I’m not alone out here. I’ll explain everything when I get there.” 
+
+“Derek, be careful!” 
+
+The comm clicked off, but he didn’t need the reminder. He felt it—the weight of the ship’s secrets pressing down on him, a reminder of the darkness lurking in the belt. He began his trek back to his ship, each step echoing with the ghosts of the past. 
+
+As he navigated the rocky terrain, he couldn’t shake the feeling that the Ardent’s legacy was far from over. The databank had revealed its secrets, but the entity that had claimed the crew was still out there, waiting. 
+
+He would bring the truth to light, and maybe, just maybe, he could put the ghosts of the Ardent to rest. But first, he had to escape the shadows that still haunted the asteroid belt.
+

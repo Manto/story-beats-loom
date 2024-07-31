@@ -3,7 +3,7 @@ story_outline:
   genre: hard science fiction
   pov: third person
   tone: hard-boiled pulp-fiction novel, such as the Noir of private eye Philip Marlowe
-  style: show don't tell, use mix of short-and-medium length sentences, keep paragraphs very short
+  style: show don't tell, use mix of short-and-long length sentences, keep paragraphs short
   setting: ancient abandoned ship in an asteroid belt
   nodes:
     start:

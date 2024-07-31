@@ -2,7 +2,9 @@ import argparse
 from dotenv import load_dotenv
 from pathlib import Path
 import os
+import shutil
 import subprocess
+import tempfile
 from story_beats_loom import loom
 
 
@@ -57,6 +59,31 @@ if __name__ == "__main__":
     ink_fp = spec_dir / f"{filename}.ink"
     story.to_ink_file(ink_fp)
     print("[+] Story written to ink file:", ink_fp)
+    
+    # Copy rest of project file to folder
+    if args.output:
+        output_dir = Path(args.output)
+    else:
+        output_dir = spec_dir / filename
+        
+    output_dir.mkdir(parents=True, exist_ok=True)
+    ink_template_dir = Path("ink/template")
+        
+    for dirpath,_,filenames in os.walk(ink_template_dir):
+        for f in filenames:
+            shutil.copy2(os.path.abspath(os.path.join(dirpath, f)), output_dir)
+
+    inkjs_fp = output_dir / "story.js"
+    subprocess.call(["ink/inklecate", "-o", inkjs_fp, ink_fp])
+    
+    # Concat "var storyContent = " to make the file javascript runnable
+    tmp_fp = output_dir / "story.js.tmp"
+    with open(inkjs_fp,'r') as f:
+        with open(tmp_fp, "w") as f2:
+            f2.write("var storyContent = ")
+            f2.write(f.read())
+    os.remove(inkjs_fp)
+    os.rename(tmp_fp, inkjs_fp)    
 
     if args.json:
         json_fp = spec_dir / f"{filename}.json"

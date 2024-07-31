@@ -26,14 +26,14 @@ class StoryBeatsLoom:
         for node in self.story_graph.nodes():
             if node == "start":
                 continue
-            yield from nx.all_simple_paths(story_graph, "start", node)
+            yield from nx.all_simple_paths(self.story_graph, "start", node)
 
     def build_story_graph(self):
-        nodes = (node for node in self.nodes)
+        nodes = (node for node in self.story_outline.nodes)
         edges = (
             # (source, dest)
             (node.name, link)
-            for node in self.nodes.values()
+            for node in self.story_outline.nodes.values()
             for link in node.links
         )
         g = nx.DiGraph()

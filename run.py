@@ -3,7 +3,7 @@ from dotenv import load_dotenv
 from pathlib import Path
 import os
 import subprocess
-from loom import generate_story_from_outline
+from story_beats_loom import loom
 
 
 if __name__ == "__main__":
@@ -45,7 +45,7 @@ if __name__ == "__main__":
     load_dotenv()
 
     story_path = Path(args.story_path)
-    story = generate_story_from_outline(story_path, args.llm)
+    story = loom.generate_story_from_outline(story_path, args.llm)
 
     # EXPORT:
     print("[+] Exporting generated story")

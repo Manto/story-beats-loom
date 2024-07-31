@@ -135,15 +135,19 @@ class InteractiveStory(InteractiveDocument):
 
         with open(filepath, "w") as f:
             # Note: start node should be first
-            # For each node, write the text and then links
+            f.write("-> start\n\n")
+
+            # For each node, write the text and then links            
             for node in self.nodes.values():
                 f.write(f"=== {node.name} ===\n")
                 f.write(node.text)
                 for link in node.links.values():
-                    f.write(f"\n*\t{link.text} -> {link.link_to}")
+                    f.write(f"\n*\t{link.text}\n\t-> {link.link_to}")
                 f.write("\n\n")
-                
-            f.write("-> END")
+        
+                # Ends the story if it contains no link.        
+                if len(node.links.values()) == 0:
+                    f.write("-> END\n\n")
 
         return filepath
 

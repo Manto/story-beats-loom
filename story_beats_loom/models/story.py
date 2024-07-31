@@ -6,7 +6,7 @@ from pathlib import Path
 from pydantic import Field
 
 from .base import NodeLink, Node, InteractiveDocument
-import io_utils
+from ..io_utils import read_yaml
 
 
 class StoryNodeLink(NodeLink):
@@ -14,10 +14,10 @@ class StoryNodeLink(NodeLink):
 
 
 class StoryNode(Node):
-    plot: str = Field(metadata=dict(title="Plot of the node"))
+    plot: str = Field(json_schema_extra=dict(title="Plot of the node"))
     links: dict[str, StoryNodeLink] = Field(default_factory=list)
     prompt: str | None = Field(
-        default=None, metadata=dict(title="Prompt used to generate node text")
+        default=None, json_schema_extra=dict(title="Prompt used to generate node text")
     )
 
     def add_link(self, link_to, link_text):
@@ -40,7 +40,7 @@ class InteractiveStory(InteractiveDocument):
     style: str | None = ""
     tone: str | None = ""
     genre: str | None = ""
-    setting: str | None = Field(default=None, metadata=dict(title="Story setting"))
+    setting: str | None = ""
 
     nodes: dict[str, StoryNode] = Field(default_factory=list)
 
@@ -119,7 +119,7 @@ class InteractiveStory(InteractiveDocument):
 
     @staticmethod
     def from_outline_yaml(filepath):
-        story_spec_dict = io_utils.read_yaml(filepath)
+        story_spec_dict = read_yaml(filepath)
         story = InteractiveStory.from_dict(story_spec_dict["story_outline"])
         return story
 
@@ -132,6 +132,21 @@ class InteractiveStory(InteractiveDocument):
     def to_ink_file(self, filepath: Path | str) -> Path:
         if not self.is_generated():
             raise Exception("Needs to generate story before exporting to ink.")
+
+        with open(filepath, "w") as f:
+            # Note: start node should be first
+            # For each node, write the text and then links
+            for node in self.nodes.values():
+                f.write(f"=== {node.name} ===\n")
+                f.write(node.text)
+                for link in node.links.values():
+                    f.write(f"\n*\t{link.text} -> {link.link_to}")
+                f.write("\n\n")
+                
+            f.write("-> END")
+
+        return filepath
+
 
     def to_twee3_file(self, filepath: Path | str) -> Path:
         if not self.is_generated():

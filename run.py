@@ -54,9 +54,9 @@ if __name__ == "__main__":
     filename = filepath.stem
 
     # Always output to ink
-    json_fp = spec_dir / f"{filename}.json"
-    story.to_json_file(json_fp)
-    print("[+] Story written to JSON file:", json_fp)
+    ink_fp = spec_dir / f"{filename}.ink"
+    story.to_ink_file(ink_fp)
+    print("[+] Story written to ink file:", ink_fp)
 
     if args.json:
         json_fp = spec_dir / f"{filename}.json"

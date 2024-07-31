@@ -3,9 +3,9 @@ from pathlib import Path
 import networkx as nx
 from tqdm import tqdm
 
-from data_models import InteractiveStory
-from prompt import generate_prompt
-from llm import make_llm_inference
+from .models import InteractiveStory
+from .prompt import generate_prompt
+from .llm import make_llm_inference
 
 
 class StoryBeatsLoom:
@@ -19,7 +19,7 @@ class StoryBeatsLoom:
 
     def walk_story_paths(self):
         if self.story_paths is None:
-            self.story_graph = self.build_story_graph(self.story_outline)
+            self.story_graph = self.build_story_graph()
             self.story_paths = list(self.get_story_paths())
 
     def get_story_paths(self):

@@ -1,0 +1,21 @@
+story_outline:
+  title: Abandoned Ship
+  genre: hard science fiction
+  pov: third person
+  tone: hard-boiled pulp-fiction novel, such as the Noir of private eye Philip Marlowe
+  style: show don't tell, use mix of short-and-long length sentences, keep paragraphs short
+  setting: ancient abandoned ship in an asteroid belt
+  nodes:
+    start:
+      plot: Derek, a space miner, finds an abandoned ship. ship looks like ancient human tech
+      links:
+        closer: Get closer
+    closer:
+      plot: he sees that the hull says NASA Hermes Mission 2500. He searches for a door, finds two locked ones.
+      links:
+        door1: Enter door 1
+        door2: Enter door 2
+    door1:
+      plot: big explosion. luckily Derek is rescued by other miners. ship wreck is lost.
+    door2:
+      plot: He finds a working ancient databank. Archaeologists in the nearest university thank Derek.
